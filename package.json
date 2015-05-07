@@ -35,13 +35,13 @@
     "gitPull": "git pull --rebase origin master",
     "gitPush": "git push --follow-tags --no-verify && git push --tags --no-verify",
     "build-es5": "babel index.jsx > index.es5",
-    "release": "source ./scripts.sh && npm run requireGitClean && npm run gitPull && npm run dmn && npm run doctoc && npm run build-es5 && npm run lint && npm test && npm_release $@"
+    "release": "source ./scripts.sh && npm run requireGitClean && npm run gitPull && npm run dmn && npm run doctoc && npm run build-es5 && npm run lint  && npm_release $@"
   },
   "config": {
     "notes": "important to correct the path of npm so that the git hook doesn't error",
     "ghooks": {
       "pre-commit": "PATH=$PATH:/usr/local/bin:/usr/local/sbin && npm run lint",
-      "pre-push": "PATH=$PATH:/usr/local/bin:/usr/local/sbin && npm run dmn && npm run doctoc && npm run lint && npm test",
+      "pre-push": "PATH=$PATH:/usr/local/bin:/usr/local/sbin && npm run dmn && npm run doctoc && npm run lint",
       "update": "PATH=$PATH:/usr/local/bin:/usr/local/sbin && npm install"
     }
   },
