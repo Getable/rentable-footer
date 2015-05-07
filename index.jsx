@@ -1,4 +1,4 @@
-import React, {PropTypes, Component} from 'react'
+import React, {Component} from 'react'
 import {addons} from 'react/addons'
 const {shouldComponentUpdate} = addons.PureRenderMixin
 const namespace = 'rentableFooter'
@@ -18,8 +18,4 @@ export default class RentableFooter extends Component {
       </footer>
     )
   }
-}
-
-RentableFooter.propTypes = {
-  name: PropTypes.string.isRequired
 }
