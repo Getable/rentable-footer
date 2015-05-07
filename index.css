@@ -5,9 +5,7 @@
   text-align: center;
 
   padding-top: var(--padding-large);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding-bottom: var(--padding-small);
 }
 
 .rentableFooter a {
