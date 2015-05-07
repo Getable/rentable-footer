@@ -5,12 +5,18 @@ NOTE: You need to specify `UTF-8` coding in your `head` tag, otherwise the copyw
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Install](#install)
 - [Usage](#usage)
+- [Methods](#methods)
+  - [get `(<String> string)`](#get-string-string)
+- [Events](#events)
+  - [myEvent `(<String> myString)`](#myevent-string-mystring)
+- [Tests](#tests)
 - [Developing](#developing)
   - [Requirements](#requirements)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
