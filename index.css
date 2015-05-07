@@ -12,10 +12,20 @@
   color: var(--color-black10);
 }
 
+.rentableFooter a:hover
+, .rentableFooter a:focus {
+  color: var(--color-black30);
+}
+
+.rentableFooter a:active {
+  color: var(--color-black10);
+  text-decoration: none;
+}
+
 .rentableFooter p {
   color: var(--color-grey50);
   font-size: var(--fontSize-h5);
-  padding-top: var(--padding-large);
+  padding-top: var(--padding-normal);
 }
 
 
