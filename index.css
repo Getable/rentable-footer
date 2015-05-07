@@ -1,9 +1,26 @@
-:root {
-  /* define your namespaced vars here
-  --fontSize-normal-rentableFooter: 1rem;
-  */
-}
+@import "@getable/variables";
+@import "@getable/lato";
+
 
 .rentableFooter {
+  background-color: var(--color-grey10);
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 
+  padding-top: var(--padding-large);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
+.rentableFooter a {
+  color: var(--color-black10);
+}
+
+.rentableFooter p {
+  color: var(--color-grey50);
+  font-size: var(--fontSize-h5);
+  padding-top: var(--padding-large);
+}
+
+

@@ -11,10 +11,12 @@ export default class RentableFooter extends Component {
   }
 
   render () {
-    return (<div className={namespace}>
-      <h1 className={`${namespace}-title`}>{this.props.name} component</h1>
-      <img src={`//${this.props.name}.jpg.to`} />
-    </div>)
+    return (
+      <footer className={namespace}>
+        <a href="#">About Us</a>
+        <p> &copy; Getable Inc. 2015</p>
+      </footer>
+    )
   }
 }
 

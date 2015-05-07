@@ -1,6 +1,7 @@
 # rentableFooter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
 footer component for rentable equipment experiment pages
+NOTE: You need to specify `UTF-8` coding in your `head` tag, otherwise the copywrite symbol will display wonky.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
