@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.2.2 | 2015-05-21
+* Update deps; fixes a babel err
+
 ## v0.2.1 | 2015-05-07
 * rm name prop; it’s not used
 
@@ -14,6 +17,7 @@
 
 ### 0.0.0
 Init
+
 
 
 
