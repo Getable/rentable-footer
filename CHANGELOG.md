@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.3.0 | 2015-06-19
+* add: link to /about instead of #
+
 ## v0.2.2 | 2015-05-21
 * Update deps; fixes a babel err
 
@@ -17,6 +20,7 @@
 
 ### 0.0.0
 Init
+
 
 
 
