@@ -13,7 +13,7 @@ export default class RentableFooter extends Component {
   render () {
     return (
       <footer className={namespace}>
-        <a href="#">About Us</a>
+        <a href="/about">About Us</a>
         <p>&copy; Getable Inc. 2015</p>
       </footer>
     )
